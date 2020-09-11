@@ -8,7 +8,10 @@
 
 body {
   background: linear-gradient(-100deg, #59B673, #5968B6);
-  background-size: 200% 200%;
+	background-image: url('https://cdn.discordapp.com/attachments/744920006105759755/754119314109366302/ripple.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
   animation: move 60s ease-in-out infinite;  
 }
 

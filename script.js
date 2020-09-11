@@ -35,7 +35,7 @@ video.addEventListener("playing", () => {
     
     const {labelAnnotations} = fetch(url, {
         method: 'POST',
-        body: JSON.stringify(img)
+        body: {"requests":[JSON.stringify(img)]}
     });
 
     console.log(labelAnnotations)
