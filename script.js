@@ -1,6 +1,6 @@
 //document.body.style.backgroundImage = "linear-gradient(-100deg, lightblue, purple)"
 
-const KEY = "AIzaSyCsJY9a6FXo_lnTP0s7VcU3AKphygCAhEc"
+// const KEY = "AIzaSyCsJY9a6FXo_lnTP0s7VcU3AKphygCAhEc"
 
 const video = document.getElementById('video'),
       canvas = document.getElementById('canvas'),

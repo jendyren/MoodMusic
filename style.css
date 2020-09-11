@@ -8,13 +8,17 @@
 
 body {
   background: linear-gradient(-100deg, #59B673, #5968B6);
-	background-image: url('https://cdn.discordapp.com/attachments/744920006105759755/754119314109366302/ripple.png');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
+	/* */
   animation: move 60s ease-in-out infinite;  
 }
 
+.content{
+	background-image: url('https://cdn.discordapp.com/attachments/744920006105759755/754119314109366302/ripple.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover; 
+	height: 100vh;
+}
 @keyframes move {
   0% {background-position: 0 50%;}
   50% {background-position: 100% 50%;}
@@ -24,7 +28,7 @@ body {
 .sidebar {
   position: absolute;
   padding: 20px;
-  background: white;
+  background: linear-gradient(-180deg, rgb(204, 238, 214), rgb(194, 200, 231));
   width: 100px;
   height: 100%;
 }
