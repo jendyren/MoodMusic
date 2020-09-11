@@ -7,7 +7,7 @@
 }
 
 body {
-  background: linear-gradient(-100deg, yellow, pink);
+  background: linear-gradient(-100deg, #59B673, #5968B6);
   background-size: 200% 200%;
   animation: move 60s ease-in-out infinite;  
 }
@@ -26,8 +26,17 @@ body {
   height: 100%;
 }
 
+.sidebar ul{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
 .sidebar li{
 	margin: 50px 0px;
 	font-size: 0.8em;
+}
+
+.sidebar li a{
+	margin-top: 10em;
 }
 
